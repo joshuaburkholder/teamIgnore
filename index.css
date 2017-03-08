@@ -3,12 +3,25 @@ body{
 }
 
 h1{
-	color: yellow;
+	color: purple;
+}
+
+h1:hover{
+	color:	white;
 }
 
 
 h3{
-	color: yellow;
+	color: blue;
+}
+
+h3:hover{
+	color:yellow;
+}
+
+.space {
+	width: 50px;
+	float: left;
 }
 
 .box1 {
