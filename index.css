@@ -1,5 +1,16 @@
 body{
-	background-image: url(./assets/planet.jpg)
+	background-color: black;
+}
+
+.wrapper {
+	background-image: url(./assets/planet.jpg);
+	max-width: 1040px;
+	min-height: 768px;
+	margin-left: 20vw;
+	margin-right: 20vw;
+	border-radius: 5px;
+	box-shadow: inset 0px 0px 40px 40px #000000;
+	margin-top: 50px;
 }
 
 h1{
@@ -32,6 +43,7 @@ h3:hover{
 	border: 5px purple;
 	border-radius: 20px;
 	float: left;
+	text-align: center;
 }
 
 .box2 {
@@ -43,4 +55,5 @@ h3:hover{
 	border-radius: 15px;
 	float: right;
 	margin-top: 300px;
+	text-align: center;
 }
